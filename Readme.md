@@ -20,3 +20,28 @@ In both cases the CSV result should be like:
 Sentence 1, a, had, lamb, little, Mary
 Sentence 2, Aesop, and, called, came, for, Peter, the, wolf
 Sentence 3, Cinderella, likes, shoes
+
+To start app:
+
+The Simplest way is to start Main inside ide.
+
+Also it's possible to compile and start jar
+For this you need maven.
+
+If you want executable jar
+1) Open terminal
+1) Install maven
+2) Change directory where pom is located
+3) Execute mvn clean package
+4) Change directory to target directory where jar is located
+5) Execute command java -jar Parser-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+Software parse input from console and provide output to the console also.
+
+Example:
+Enter text to parse: 
+Hello World
+Word 1, Word 2
+Sentence 0, Hello, World
+
+App terminated by word exit.
